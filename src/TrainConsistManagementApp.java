@@ -26,10 +26,11 @@ public class TrainConsistManagementApp {
         bogies.add(new Bogie("AC Chair", 56));
         bogies.add(new Bogie("First Class", 24));
         bogies.add(new Bogie("General", 90));
-        System.out.println("Before Sorting:\n");
+        System.out.println("All Bogies:\n");
         for (Bogie b : bogies) {
             System.out.println(b);
         }
+        
         System.out.println("\nAfter Sorting by Capacity:\n");
         bogies.sort((b1, b2) -> b1.capacity - b2.capacity);
         for (Bogie b : bogies) {
