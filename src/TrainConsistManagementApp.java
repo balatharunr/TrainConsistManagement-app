@@ -1,7 +1,7 @@
-import java.util.Map;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class TrainConsistManagementApp {
     static class Bogie{
@@ -18,7 +18,7 @@ public class TrainConsistManagementApp {
     }
     public static void main(String[] args) {
         System.out.println("============================\n");
-        System.out.println("Sort Bogies by Capacity (Comparator)");
+        System.out.println("Filter Passenger Bogies Using Streams");
         System.out.println("============================\n");
         List<Bogie> bogies = new ArrayList<>();
         Map<String, Integer> capacityMap = new HashMap<>();
