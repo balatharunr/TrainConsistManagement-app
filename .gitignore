@@ -30,3 +30,7 @@ bin/
 .DS_Store
 
 *.class
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
